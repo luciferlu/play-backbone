@@ -39,7 +39,7 @@ module.exports = (grunt) ->
         coffee:
             compile:
                 files:
-                    'build/lib/easycode/easycode.js': 'lib/easycode-*/**/*.coffee'
+                    'build/lib/me/ezycode/me.ezcode.js': 'lib/me/ezcode-*/**/*.coffee'
 
 
         browserify2:
@@ -51,7 +51,7 @@ module.exports = (grunt) ->
                         "dustjs-linkedin": './components/dustjs-linkedin/lib/dust.js'
                         "dustjs-linkedin-helpers": './components/dustjs-linkedin-helpers/lib/dust-helpers.js'
                         q: "./components/q/q.js"
-                        # easycode: './build/lib/easycode/easycode.js'
+                        "me.ezcode": './build/lib/me/ezycode/me.ezcode.js'
                 entry: "#{conf.javascripts}/app.coffee"
                 compile: "build/app/app.js"
                 debug: true
@@ -268,7 +268,7 @@ module.exports = (grunt) ->
         'clean:app'
         'dust:templates'
         'concat:templates'
-        # 'coffee'
+        'coffee'
         'browserify2:app'
         'less:dev'
         'copy:dev'

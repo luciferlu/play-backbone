@@ -1,0 +1,16 @@
+<div class="alert alert-success info hide">
+</div>
+
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="name">姓名</label>
+    <div class="controls">
+      <input type="text" id="name" placeholder="姓名..." value="{name}">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <button type="button" id="btnOk" class="btn">Save</button>
+    </div>
+  </div>
+</form>
