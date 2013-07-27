@@ -1,0 +1,17 @@
+{
+  "name": "web-client-ui",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "~1.10.0",
+    "bootstrap": "~2.3.2",
+    "underscore": "~1.4.4",
+    "html5shiv": "~3.6.2",
+    "backbone": "~1.0.0",
+    "dustjs-linkedin": "~1.2.6",
+    "dustjs-linkedin-helpers": "~1.1.1",
+    "q": "~0.9.6",
+    "jquery-ui": "~1.10.3",
+    "dynatree": "~1.2.4",
+    "font-awesome": "~3.2.1"
+  }
+}
